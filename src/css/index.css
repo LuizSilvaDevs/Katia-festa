@@ -1,0 +1,101 @@
+@import url(global.css);
+
+.cabecalho{
+    margin: auto;
+}
+.cabecalho img{
+    width: 100px;
+}
+
+.logo-e-texto{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px
+}
+.logo-e-texto h1{
+    font-size: 3.5em;
+}
+/* fim header */
+/* começo main */
+.container-principal{
+    display: flex;
+    flex-direction: column;
+}
+.container-banner img{
+    width: 100%;
+    padding-bottom: 100px;
+}
+.dados-festa{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+.container-texto{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    max-width: 60vw;
+    width: 100%;
+    gap: 10px;
+    p{
+        font-size: 2.6em;
+        padding-bottom: 50px;
+    }
+    span{
+        font-size: 1.5em;
+        font-weight: bold;
+        font-style: italic;
+    }
+}
+.imagem-convite img{
+    max-width: 500px;
+
+    width: 100%;
+
+}
+.texto-motivacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+    p{
+        font-size: 2em;
+    }
+    span{
+        font-size: 1.5em;
+        font-style: italic;
+        text-decoration: underline;
+    }
+}
+/* fim main */
+/* começo footer */
+.rodape{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.endereco{
+    display: flex;
+    width: 100%;
+    iframe{
+        width: 100%;
+    }
+}
+.footer-name{
+    background-color: var(--cor-borda);
+    p{
+        text-align: center;
+        font-weight: 500;
+        padding: 8px;
+        text-decoration: line-through;
+    }
+}
+
+/* fim footer */
